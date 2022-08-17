@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" verbose="0">
+  <test name="DemoBlazeTestSuite(failed)">
+    <classes>
+      <class name="com.CartTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+          <include name="tearDownTest"/>
+          <include name="cartDelete"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.CartTest -->
+      <class name="com.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="validUserWithInvalidPassword"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.LoginTest -->
+    </classes>
+  </test> <!-- DemoBlazeTestSuite(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

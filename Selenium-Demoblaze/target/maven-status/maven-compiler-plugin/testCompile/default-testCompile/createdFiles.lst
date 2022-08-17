@@ -1,0 +1,4 @@
+com\Base.class
+com\LoginTest.class
+com\CartTest.class
+util\PropertyReader.class
